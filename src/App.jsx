@@ -14,9 +14,11 @@ function App() {
     setBookMarks(newBookMarked)
   }
 
-  const handleAddTime = time =>{
+  const handleAddTime = (id, time) =>{
     const newTime = addTime + time
     setAddTime(newTime);
+    const removeBookMarks = bookMarks.filter(bookMark => bookMark.id !== id)
+    setBookMarks(removeBookMarks)
 
   }
   

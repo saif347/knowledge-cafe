@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import frame from '../../assets/images/Frame.png'
 
 const Blog = ({blog, handleToAddBookMark,  handleAddTime}) => {
-    const {title, cover_img, author, posted_date, hashtags, reading_time}= blog
+    const {id,title, cover_img, author, posted_date, hashtags, reading_time}= blog
 
     return (
         <div className='p-4 border-b-2 mb-8 space-y-6' >
@@ -31,7 +31,7 @@ const Blog = ({blog, handleToAddBookMark,  handleAddTime}) => {
             </p>
 
           <div className='mt-4'>
-            <button onClick={() =>handleAddTime(reading_time)} className='border-b-2 border-violet-500 text-violet-600 font-bold'>Mark as read</button>
+            <button onClick={() =>handleAddTime(id,reading_time)} className='border-b-2 border-violet-500 text-violet-600 font-bold'>Mark as read</button>
           </div>
             
         </div>
@@ -40,7 +40,8 @@ const Blog = ({blog, handleToAddBookMark,  handleAddTime}) => {
 Blog.propTypes={
     blog: PropTypes.object.isRequired,
     handleToAddBookMark: PropTypes.func,
-    handleAddTime: PropTypes.func
+    handleAddTime: PropTypes.func,
+
 
 }
 
