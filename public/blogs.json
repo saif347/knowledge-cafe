@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "cover_img": "https://i.ibb.co/T4vX1mS/high-angle-desktop-with-laptop-copy-space.jpg",
+        "title": "Exploring the Wonders of Artificial Intelligence",
+        "posted_date": "December 25, 2023",
+        "reading_time": 10,
+        "author": {
+          "name": "Dr. Alex AI",
+          "profile_img": "https://i.ibb.co/ysm8gPv/pretty-curly-young-woman-writing-notes-startup-project.jpg"
+        },
+        "hashtags": ["#ArtificialIntelligence", "#Tech", "#Innovation"]
+      
+    },
+    {
+        "id": 2,
+        "cover_img": "https://i.ibb.co/vsXNKWG/toy-bricks-table-with-word-blog.jpg",
+        "title": "Journey into Space: Unraveling the Mysteries of the Universe",
+        "posted_date": "December 25, 2023",
+        "reading_time": 12,
+        "author": {
+          "name": "Captain Stella Cosmos",
+          "profile_img": "https://i.ibb.co/ysm8gPv/pretty-curly-young-woman-writing-notes-startup-project.jpg"
+        },
+        "hashtags": ["#SpaceExploration", "#Astronomy", "#Science"]
+    },
+    {
+        "id": 3,
+        "cover_img": "https://i.ibb.co/QcVvwjH/workplace-with-smartphone-laptop-black-table-top-view-copyspace-background.jpg",
+        "title": "The Art of Culinary Delights: A Gastronomic Adventure",
+        "posted_date": "December 25, 2023",
+        "reading_time": 6,
+        "author": {
+          "name": "Chef Julia Flavor",
+          "profile_img": "https://i.ibb.co/ysm8gPv/pretty-curly-young-woman-writing-notes-startup-project.jpg"
+        },
+        "hashtags": ["#Foodie", "#CulinaryArts", "#Gastronomy"]
+    },
+    {
+        "id": 4,
+        "cover_img": "https://i.ibb.co/vsXNKWG/toy-bricks-table-with-word-blog.jpg",
+        "title": "Innovation in Green Energy: Building a Sustainable Future",
+        "posted_date": "December 25, 2023",
+        "reading_time": 9,
+        "author": {
+          "name": "Dr. Green Innovator",
+          "profile_img": "https://i.ibb.co/ysm8gPv/pretty-curly-young-woman-writing-notes-startup-project.jpg"
+        },
+        "hashtags": ["#GreenEnergy", "#Sustainability", "#Innovation"]
+    },
+    {
+        "id": 5,
+        "cover_img": "https://i.ibb.co/QcVvwjH/workplace-with-smartphone-laptop-black-table-top-view-copyspace-background.jpg",
+        "title": "Mastering the Art of Mindfulness: A Journey Within",
+        "posted_date": "December 25, 2023",
+        "reading_time": 7,
+        "author": {
+          "name": "Zen Master Yasmine",
+          "profile_img": "https://i.ibb.co/ysm8gPv/pretty-curly-young-woman-writing-notes-startup-project.jpg"
+        },
+        "hashtags": ["#Mindfulness", "#Wellness", "#InnerJourney"]
+    }
+  ]
+  
